@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> 타이틀 </title>
+    <link rel = "stylesheet" type="text/css" href="css/member.css">
+</head>
+    <br><br>
+    <center>
+    <font face="Papyrus" font size="80"><b>
+       <class="a"><a href="index.html">CIX</a> 
+                <div style="text-align:center"> 
+                <button onclick="playPause()">시작/정지</button>
+                <button onclick="makeBig()">큰 화면</button>
+                <button onclick="makeSmall()">작은화면</button>
+                <button onclick="makeNormal()">보통 화면</button>
+                <br>
+                <br> 
+                <br>
+                <video id="video1" width="420">
+                <source src="m/moviestar.mp4"" type="video/mp4" align="left" width="2000" height="1800">
+                </video>
+            </div> 
+            <script> 
+                var myVideo = document.getElementById("video1"); 
+                function playPause(){
+                if(myVideo.paused)
+                    myVideo.play();
+                else 
+                    myVideo.pause();
+                }
+                function makeBig(){
+                myVideo.width = 1800;
+                }
+                function makeSmall(){
+                myVideo.width = 320;
+                }
+                function makeNormal(){
+                myVideo.width = 720;
+                }
+            </script> 
+</center>
+    <br><br>
+    <font face="Papyrus" font size="80" font size="3">
+            <P><P>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Title : Movie Star 
+            <P><P>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;수록곡 : The One, What you wanted 등<img src="image/moviestartitle.png" width="700" height="500" align="right">
+            <br>
+            <br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;강렬한 퍼포먼스와 환적이면서 
+            <br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;우아한 퍼포먼스로 
+            <br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;차세대 한류 아이돌의 등장을
+            <br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;시청자들에게 제대로 각인시켰다.
+            <br><br>
+            <img src="image/cixalbum.PNG" width="700" height="500" align="left"><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CIX의 미니앨범 "안녕 낯선사람" 1집 
+
+    <br><br><br><br></b>
+    </font>
+</html>

@@ -1,0 +1,17 @@
+
+table.a{ 
+font-style: bold; 
+font-weight:bold ;
+color:rgba(255, 180, 224, 0.883); font-size:15; 
+background-color:#eaffff; 
+}  
+				
+tr.f{ 
+background-color:#a4d2ff; 
+} 
+
+a{
+    color: rgb(0, 0, 0); 
+    text-decoration: none
+    
+}

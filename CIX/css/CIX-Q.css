@@ -1,0 +1,42 @@
+body {
+    background-image: url("../image/9fzOTzK.png");
+  }
+  
+  span { 
+    color: black;
+    display: inline;
+  }
+  
+  input {
+    width: 80px;
+    height: 55px;
+    background-color: rgb(47, 36, 78);
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .quiz{
+    width: 120px;
+    height: 120px;
+  }
+  
+  img:active{
+    opacity : 0.5;
+  }
+  
+  .score {
+    width: 80px;
+    height: 35px;
+    background-color: rgb(49, 41, 85);
+    color: white;
+    border-radius: 20px;
+    font-size: 15px
+  }
+  body{
+    background:rgb(50, 52, 85)
+    }
+a{
+    color: white; 
+    text-decoration: none
+    
+}
