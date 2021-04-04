@@ -1,2 +1,2 @@
 # CIX_web
-cix fan page
+https://yoonkyoungchoi.github.io/CIX_web/CIX/index.html
